@@ -1,0 +1,89 @@
+.app {
+    height: 1000px;
+    width: 100%;
+    color: white;
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    padding: 100px 0 30px 50px;
+    
+}
+
+.info__heading {
+    font-size: 60px;
+    padding-left: 80px;
+}
+
+.info__name {
+    font-size: 150px;
+    padding-top: 60px;
+}
+
+
+
+.info__mssv {
+    font-size: 80px;
+    padding-top: 60px;
+}
+
+.info__email {
+    font-size: 60px;
+    padding-top: 60px;
+    
+}
+
+.info__email-icon{
+    font-size: 30px;
+    position: relative;
+    top: -8px;
+}
+
+.info__phone {
+    display: block;
+    font-size: 60px;
+    padding-top: 60px;
+    display: flex;
+}
+
+.info__phone-icon {
+    font-size: 30px;
+    margin-right: 15px;
+    position: relative;
+    top: 18px;
+}
+.button {
+    padding-left: 30%;
+}
+
+.return-btn {
+    height: 100px;
+    min-width: 100px;
+    text-decoration: none;
+    border-radius: 2px;
+    border: none;
+    font-size: 60px;
+    padding: 0 50px;
+    outline: none;
+    color: wheat;
+    background-color: rgb(142, 111, 84);
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 20px #e0e0e0;
+}
+
+.ava-img {
+    width: 550px;
+    height: 550px;
+    position: relative;
+    top: 150px;
+    left: 50px;
+    
+}
+
+
